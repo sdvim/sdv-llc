@@ -25,6 +25,12 @@ body {
   margin: 1em;
 }
 
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+}
+
 main {
   max-width: 24em;
   margin: 0 auto;
