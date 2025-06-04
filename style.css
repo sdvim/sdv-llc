@@ -34,6 +34,10 @@ body {
 main {
   max-width: 24em;
   margin: 0 auto;
+  min-height: calc(100vh - 2em);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 ol {
